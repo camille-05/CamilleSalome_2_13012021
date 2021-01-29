@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+*
+{
+    font-family: "Raleway", "Sans serif"; 
+}
+
+body{
+    
+    width: 1440px;
+    font-weight: bold;
+}
+header{
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+    height: 30px;
+}
+ #hebergements:hover, #activités:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+    transition-duration: 0.1s; 
+}
+#hebergements, #activités, #inscription
+{
+    padding: 40px;
+    text-decoration: none;
+    
+}
+#hebergements, #activités
+{
+    color: black;
+}
+#inscription
+{
+    color: #0065FC;
+}
+nav
+{
+    position: relative;
+    top: -50px;
+}
+.logo
+{
+    position: relative;
+    top: 40px;
+}
+form
+{
+    font-size: 20px;
+}
+.recherche
+{
+    border-radius: 0px 12px 12px 0px;
+    border: 1px solid #0000ff00;
+}
+.button
+{
+    display: inline-flex;
+    border: 1px solid #0000ff00;
+    border-radius: 0px 12px 12px 0px;
+    text-decoration-line: none;
+    color: white;
+    background-color: #0065fc;
+    font-size: 20px;
+    align-items: center;
+}
+.fas.fa-map-marker-alt
+{
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    
+}
+.barreDeRecherche
+{
+    font-size: 20px;
+    font-family: "Raleway", "Sans serif";
+    font-weight: bold;
+    text-align: center; 
+    border: 0.1px solid #F2F2F2;
+}
+form{
+    display: flex;
+}
+span.icons
+{
+    border: 1px solid #F2F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2F2;
+    font-size: 35px;
+    border-width: 5px;
+    width: 50px;
+    text-align: center;
+}
+#sousMenu
+{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      max-width: 1000px;
+}
+.sousMenuIcones
+{
+   
+     width: 1100px;
+    font-weight: bold; 
+}
+.search
+{
+    width: 1340px;
+    height: 300px;
+}
+.titreFiltres
+{
+    margin-right: 20px;
+}
+
+.filter
+{
+   display: flex;
+   align-items: center;
+    border: 1px solid #F2F2F2;
+    width: 240px;
+    border-radius: 32px;
+    margin-left: 30px;
+}
+.filter:hover
+{
+    -webkit-transform: scale(1.25); 
+    -moz-transform: scale(1.25); 
+}
+.filter.economique
+{
+    max-width: 195px;
+}
+.filter.Familial
+{
+    max-width: 150px;
+}
+.filter.romantique
+{
+    max-width: 185px;
+}
+.filter.animaux
+{
+    max-width: 245px;
+}
+.fas.fa-child.icones
+{
+    height: 30px;
+    font-size: 37px;
+    
+}
+.icones{
+    color: #0065FC;
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 100%;
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    border-width: 15px;
+}
+.information
+{
+    border-radius: 50%;
+    border: 2px solid #F2F2F2;
+    margin-right: 5px;
+    color: #0065FC;
+    padding: 5px;
+    width: 15px;
+    text-align: center;
+}
+img.part2HostingCard
+{
+    width: 230px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 5% 5% 0% 0%;
+}
+
+section{
+    
+    height: 625px;
+}
+.part2HostingFirst{
+    width: 880px;
+    height: 690px;
+    border-radius: 5% 5% 5% 5%;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    
+}
+.part2HostingTitle
+{
+    position: relative;
+    left: 40px;
+}
+.part2Hosting{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.part2HostingCard
+{
+    display: flex;
+    justify-content: center;
+
+}
+.part3HostingCard
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.part2Hosting1
+{
+    padding: 5px;
+    border-radius: 5% 5% 5% 5%;
+    border: 0.5px solid white;
+    background-color: white;
+    margin: 15px;
+    max-width: 230px;
+    height: 210px;
+    
+}
+.part2Hosting2
+{
+    padding: 5px;
+    border-radius: 5% 5% 5% 5%;
+    border: 0.5px solid white;
+    background-color: white;
+    margin: 15px;
+    max-width: 230px;
+}
+.plus
+{
+    position: absolute;
+    top: 1010px;
+    left: 130px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-decoration: none; 
+}
+.firstBlock
+{
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-between;
+}
+.part1{
+    border-radius: 5% 5% 5% 5%;
+    border: solid 1px #F2F2F2;
+    background-color: #F2F2F2;
+    height: 625px;
+    width: 880px;
+    font-size: 85%;
+}
+img.populairesImg
+{
+    width: 125px;
+    height: 130px;
+    border-radius: 5% 0% 0% 5%;
+    margin: 5px;
+    object-fit: cover;
+}
+.populairesTitle
+{
+    position: relative;
+    right: 20px;
+}
+.popularIcon
+{
+    font-size: 20px;
+}
+.titlePopularIcon
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+aside
+{
+    border: 1px solid #F2F2F2F2;
+    border-radius: 5% 5% 5% 5%;
+    background-color: #F2F2F2F2;
+}
+.part2Populaires
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    max-height: 690px;
+    align-items: center;
+}   
+
+#populaires.part2
+{
+    width: 390px;
+    font-size: 85%;
+    height: 625px;
+}
+.populairesCardFigureCaption
+{
+    display:flex;
+    flex-direction: row;
+    border-radius: 5% 5% 5% 5%;
+    border: 1px solid white;
+    background-color: white;
+    margin: 15px;  
+    max-width: 310px;
+}
+
+.hostingMainCardGradeIcon[data-active=true], .populairesCardGradeIcon[data-active=true]
+{
+    color:#0065FC
+}
+
+ 
+.hostingMainCardGradeIcon[data-active=false], .populairesCardGradeIcon[data-active=false]
+{
+    color: #F2F2F2F2;
+}
+
+.populairesCard1
+{
+    display: flex;
+    flex-direction: column;
+}
+.activitésImg1
+{
+    object-fit: cover;
+    width: 295px;
+    height: 388px;
+    border-radius: 5% 5% 0% 0%;
+}
+.activitésImg2
+{
+    object-fit: cover;
+    width: 295px;
+    height: 180px;
+    border-radius: 5% 5% 0% 0%;
+}
+.activitésImg3
+{
+    object-fit: cover;
+    width: 295px;
+    height: 110px;
+    border-radius: 5% 5% 0% 0%;
+}
+.activitésImg4
+{
+    object-fit: cover;
+    width: 295px;
+    height: 136px;
+    border-radius: 5% 5% 0% 0%;
+}
+.activitésImg5
+{
+    object-fit: cover;
+    width: 295px;
+    height: 150px;
+    border-radius: 5% 5% 0% 0%;
+}
+#activity
+{ 
+    width: 1430px;
+    height: 560px;
+    margin-top: 100px;
+}
+.activitésPart{
+    display: flex;
+    flex-direction: row;
+}
+
+.activitésTitle
+{
+  position: relative;
+  left: 10px;
+}
+.activitésPart1
+{
+    display: flex;
+    flex-direction: row;   
+}
+.activitésPart2
+{
+    display: flex;
+    flex-direction: row;
+}
+.activitésCardFigureCaption
+{
+    margin: 10px;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 0px 1px 1px #F2F2F2;
+    border: 3px solid white;
+}
+.firstColumn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondColumn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Card :hover
+{
+    -webkit-transform: scale(1.25); 
+    -moz-transform: scale(1.25); 
+}
+
+.column1
+{
+    display: flex;
+    flex-direction: column;
+}
+.column2
+{
+    display: flex;
+    flex-direction: column;
+}
+.column3
+{
+    display: flex;
+    flex-direction: column;
+}
+.Lien{
+color: black;
+text-decoration: none;
+margin-top: 10px;
+}
+.ileDeFrioul
+{
+    padding: 10px;
+}
+.parcLongchamp
+{
+    padding: 10px;
+}
+.piedDePage
+{
+    height: 215px;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+}
