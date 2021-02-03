@@ -6,13 +6,14 @@
 
 body{
     
-    width: 1440px;
+   max-width: 1440px;
     font-weight: bold;
 }
 header{
     height: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    max-width: 1440px;
 }
 main{
     margin-left: 50px;
@@ -106,21 +107,15 @@ span.icons
 #sousMenu
 {
       display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      max-width: 1000px;
+      flex-wrap: wrap;
+      
+      
 }
 .sousMenuIcones
-{
-   
-     width: 1100px;
+{ 
     font-weight: bold; 
 }
-.search
-{
-    width: 1340px;
-    height: 300px;
-}
+
 .titreFiltres
 {
     margin-right: 20px;
@@ -189,10 +184,6 @@ img.part2HostingCard
     border-radius: 5% 5% 0% 0%;
 }
 
-section{
-    
-    height: 625px;
-}
 .part2HostingFirst{
     width: 880px;
     height: 690px;
@@ -258,7 +249,6 @@ section{
 .firstBlock
 {
     display: flex;
-    max-width: 1300px;
     justify-content: space-between;
 }
 .part1{
@@ -279,8 +269,7 @@ img.populairesImg
 }
 .populairesTitle
 {
-    position: relative;
-    right: 20px;
+    display: flex;
 }
 .popularIcon
 {
@@ -302,16 +291,14 @@ aside
 {
     display: flex;
     flex-direction: column;
-    max-width: 420px;
-    max-height: 690px;
     align-items: center;
 }   
 
 #populaires.part2
 {
-    width: 390px;
+    
     font-size: 85%;
-    height: 625px;
+   
 }
 .populairesCardFigureCaption
 {
@@ -461,4 +448,5 @@ margin-top: 10px;
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-around;
+    max-width: 1440px;
 }

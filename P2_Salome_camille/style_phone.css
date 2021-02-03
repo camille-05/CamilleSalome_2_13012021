@@ -1,0 +1,164 @@
+@media all and (max-width: 1400px){
+
+.firstBlock
+    {
+     flex-wrap: wrap;
+     flex-direction: column-reverse;   
+    }
+    #populaires.part2 
+    {
+        font-size: 85%;
+        width: auto;
+        height: auto; 
+    }
+    .part2Populaires
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}
+
+@media all and (max-width: 1024px)
+{
+    body{
+    
+        max-width: 1024px;
+         font-weight: bold;
+     }
+     header{
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+    }
+    #sousMenu
+{
+      display: flex;
+      flex-wrap: wrap;  
+      max-width: 1024px;
+}
+    
+    .firstBlock
+    {
+     flex-wrap: wrap;
+     flex-direction: column-reverse;   
+    }
+    #populaires.part2 
+    {
+        font-size: 85%;
+        width: auto;
+        height: auto;
+    }
+    .populairesCardFigureCaption{
+        max-width: 1400px;
+    }
+    .part2Populaires
+    {
+        align-items: stretch;
+    }
+    
+}
+
+@media all and (max-width: 800px)
+{
+    header
+    { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        position: relative;
+        top: -20px;
+        margin: 20px;
+    }
+    .search
+    {
+        max-width: 375px;
+    }
+    .button
+    {
+        max-width: 50px;
+        
+
+    }
+
+
+
+
+
+}
+
+@media all and (max-width: 375px)
+{
+
+html
+{
+    max-width: 375px; 
+    
+}
+header
+{
+    margin: auto;
+}
+body
+{
+    max-width: 375px;
+}
+.logo
+{
+    top:20px;
+}
+nav
+{
+    position: relative;
+    top: 25px;
+    max-width: 375px; 
+    
+}
+
+    .menu{
+        display: flex; 
+        flex-wrap: wrap-reverse;
+       
+    }
+    #hebergements:hover, #activités:hover
+{
+    color: #0065FC;
+    border-bottom: 1px solid #0065FC;
+    transition-duration: 0.1s; 
+    border-top: none;
+}
+#hebergements, #activités, #inscription
+{
+    padding: 10px;
+    text-decoration: none; 
+    max-width: 375px;
+    
+}
+#hebergements, #activités
+{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+#hebergements
+{
+    margin-right: 50px;
+}
+#inscription
+{
+    margin-right: 20px;
+    top: 20px;
+}
+h1 span
+{
+    white-space: normal;
+}
+
+
+}
