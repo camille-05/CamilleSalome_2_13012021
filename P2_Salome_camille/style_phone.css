@@ -17,8 +17,41 @@
         align-items: center;
         justify-content: center;
     }
-    
-    
+    .part1
+    {
+        margin-top: 20px;
+    }
+    .activitésImg1, .activitésImg2, .activitésImg3, .activitésImg4, .activitésImg5, .activitésImg6
+    {
+    object-fit: cover;
+    width: 295px;
+    height: 180px;
+    border-radius: 25px 25px 0% 0%;
+    }
+    .activitésPart
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstColumn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+    .secondColumn
+{
+    flex-direction: row;
+}
+    .ileDeFrioul
+{
+    padding: 0%;
+}
+    .activités2Part2
+    {
+        align-items: center;
+    }
+ 
 }
 
 @media all and (max-width: 1024px)
@@ -41,22 +74,12 @@
       max-width: 1024px;
 }
     
-    .firstBlock
-    {
-     flex-wrap: wrap;
-     flex-direction: column-reverse;   
-    }
-    #populaires.part2 
-    {
-        font-size: 85%;
-        width: auto;
-        height: auto;
-    }
     .populairesCardFigureCaption{
-        max-width: 1400px;
+        max-width: 1024px;
     }
     .part2Populaires
     {
+        flex-direction: column;
         align-items: stretch;
     }
     
@@ -85,10 +108,6 @@
         
 
     }
-
-
-
-
 
 }
 
@@ -154,10 +173,6 @@ nav
 {
     margin-right: 20px;
     top: 20px;
-}
-h1 span
-{
-    white-space: normal;
 }
 
 

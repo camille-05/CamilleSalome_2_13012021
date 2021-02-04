@@ -91,6 +91,11 @@ form
     text-align: center; 
     border: 0.1px solid #F2F2F2;
 }
+i.fas.fa-search
+{
+    display: none;
+}
+
 form{
     display: flex;
 }
@@ -181,13 +186,12 @@ img.part2HostingCard
     width: 230px;
     height: 110px;
     object-fit: cover;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 
 .part2HostingFirst{
-    width: 880px;
-    height: 690px;
-    border-radius: 5% 5% 5% 5%;
+    
+    border-radius: 25px 25px 25px 25px;
     border: 1px solid #F2F2F2;
     background-color: #F2F2F2;
     
@@ -219,7 +223,7 @@ img.part2HostingCard
 .part2Hosting1
 {
     padding: 5px;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     border: 0.5px solid white;
     background-color: white;
     margin: 15px;
@@ -230,7 +234,7 @@ img.part2HostingCard
 .part2Hosting2
 {
     padding: 5px;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     border: 0.5px solid white;
     background-color: white;
     margin: 15px;
@@ -252,18 +256,17 @@ img.part2HostingCard
     justify-content: space-between;
 }
 .part1{
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     border: solid 1px #F2F2F2;
     background-color: #F2F2F2;
     height: 625px;
-    width: 880px;
     font-size: 85%;
 }
 img.populairesImg
 {
     width: 125px;
     height: 130px;
-    border-radius: 5% 0% 0% 5%;
+    border-radius: 25px 0% 0% 25px;
     margin: 5px;
     object-fit: cover;
 }
@@ -284,7 +287,7 @@ img.populairesImg
 aside
 {
     border: 1px solid #F2F2F2F2;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     background-color: #F2F2F2F2;
 }
 .part2Populaires
@@ -304,7 +307,7 @@ aside
 {
     display:flex;
     flex-direction: row;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     border: 1px solid white;
     background-color: white;
     margin: 15px;  
@@ -332,41 +335,39 @@ aside
     object-fit: cover;
     width: 295px;
     height: 388px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 .activitésImg2
 {
     object-fit: cover;
     width: 295px;
     height: 180px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 .activitésImg3
 {
     object-fit: cover;
     width: 295px;
     height: 110px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 .activitésImg4
 {
     object-fit: cover;
     width: 295px;
     height: 136px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 .activitésImg5
 {
     object-fit: cover;
     width: 295px;
     height: 150px;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 25px 25px 0% 0%;
 }
 #activity
 { 
-    width: 1430px;
-    height: 560px;
-    margin-top: 100px;
+    max-width: 1330px;
 }
 .activitésPart{
     display: flex;
@@ -391,7 +392,7 @@ aside
 .activitésCardFigureCaption
 {
     margin: 10px;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 25px 25px 25px 25px;
     box-shadow: 0px 1px 1px #F2F2F2;
     border: 3px solid white;
 }
