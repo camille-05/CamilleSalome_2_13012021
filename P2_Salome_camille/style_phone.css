@@ -1,0 +1,201 @@
+@media all and (max-width: 1400px){
+
+.firstBlock
+    {
+     flex-wrap: wrap;
+     flex-direction: column-reverse;   
+    }
+    #populaires.part2 
+    {
+        font-size: 85%;
+        width: auto;
+        height: auto; 
+    }
+    .part2Populaires
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .part1
+    {
+        margin-top: 20px;
+    }
+    .activitésImg1, .activitésImg2, .activitésImg3, .activitésImg4, .activitésImg5, .activitésImg6
+    {
+    object-fit: cover;
+    width: 290px;
+    height: 180px;
+    border-radius: 25px 25px 0% 0%;
+    }
+    .activitésTitle
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .activitésPart
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstColumn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+    .secondColumn
+{
+    flex-direction: row;
+}
+    .ileDeFrioul
+{
+    padding: 0%;
+}
+    .activités2Part2
+    {
+        align-items: center;
+    }
+    .activitésPart2
+    {
+            align-items: center;
+            justify-content: center;
+    }
+ 
+}
+
+@media all and (max-width: 1024px)
+{
+    body{
+    
+        max-width: 1024px;
+         font-weight: bold;
+        }
+     header{
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 1024px;
+    }
+    main
+    {
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    #sousMenu
+{
+      display: flex;
+      flex-wrap: wrap;  
+      max-width: 1024px;
+}
+    .filter
+    {
+        margin: 2px;
+    }
+    
+    .populairesCardFigureCaption{
+        max-width: 1024px;
+    }
+    .part2Populaires
+    {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    
+}
+
+@media all and (max-width: 900px)
+{
+    header
+    { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        position: relative;
+        top: -20px;
+        margin: 20px;
+    }
+    
+    .button
+    {
+        max-width: 50px;
+    }
+    .firstBlock
+    {
+        justify-content: stretch;
+    }
+    .part2HostingCard
+    {
+        flex-wrap: wrap;
+    }
+    .part3HostingCard
+    {
+        flex-wrap: wrap;
+    }
+
+    .activitésPart1
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .activitésPart2
+    {
+        flex-wrap: wrap;
+    }
+
+}
+@media all and (max-width: 600px)
+{
+    
+    .logo
+    {
+        left: 35px;
+    }
+    .menu
+    { 
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: auto;
+        height: auto;
+        
+    }
+    .navigation
+    {
+        position: unset;
+    }
+}
+
+@media all and (max-width: 375px)
+{
+
+html
+{
+    max-width: 375px; 
+    font-size: 85%;
+}
+header
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    #hebergements:hover, #activités:hover
+{
+    color: #0065FC;
+    border-bottom: 1px solid #0065FC;
+    transition-duration: 0.1s; 
+    border-top: none;
+}
+#hebergements, #activités, #inscription
+{
+    
+    text-decoration: none; 
+    
+    
+}
+
+
+}

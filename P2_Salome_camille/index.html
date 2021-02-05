@@ -4,8 +4,10 @@
     
   <meta charset="utf-8">
   <title>Reservia -openclassrooms</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link rel="stylesheet" href="style.css"/> 
+  <link rel="stylesheet" media="screen and (max-width: 1400px)" href="style_phone.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1024px)" href="style_phone.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"/> 
 
   <script src="https://kit.fontawesome.com/99b84a5484.js" crossorigin="anonymous"></script>
 </head> 
@@ -16,8 +18,8 @@
   <!--menu-->
   <nav class="navigation">
     <div class="menu">
-      <a id="hebergements" href="#1">Hébergements</a>
-      <a id="activités" href="#2">Activités</a>
+      <div class="portable"><a id="hebergements" href="#1">Hébergements</a>
+      <a id="activités" href="#2">Activités</a></div>
 <a id="inscription" href="s'inscrire">S'inscrire</a>
 </div>    
                  
@@ -26,7 +28,7 @@
 <!--main-->
 <main>
     <section class="search">
-        <h2 class="titre1">Trouvez votre hébergement pour des vacances de rêve</h2>
+        <h2 class="titre1"><span>Trouvez votre hébergement</span><span> pour des vacances de rêve</span></h2>
     <p>En plein centre ville ou en pleine nature</p>
     <div class="recherche">
         
@@ -35,12 +37,13 @@
         <span class='icons'><i class="fas fa-map-marker-alt"></i></span>
          <input class="barreDeRecherche" type="search" id="maRecherche" name="q" placeholder="Marseille, France">
       
-      <button class="button">Rechercher</button>
+      <button class="button"><i class="fas fa-search"></i>Rechercher</button>
     </form>
     </div>
     <br/>
     <div id="sousMenu" class="sousMenuIcones"><h3 class="titreFiltres">Filtres</h3>
-        <div class="filter economique">
+      <div class="mobileFilter">
+      <div class="filter economique">
         <i class="fas fa-money-bill icones"></i>
         <span class="sousMenuIcones">Économique</span></div>
         <div class="filter Familial">
@@ -52,6 +55,7 @@
               <div class="filter animaux">
               <i class="fas fa-dog icones"></i>
                   <span class="sousMenuIcones">Animaux autorisés</span></div>
+                </div> 
       </div>
       <div class="resultatIcones">
         <p class="resultat"><i class="fas fa-info information"></i> Plus de 500 logements sont disponibles dans cette ville</p>
@@ -167,8 +171,8 @@ alt="Chambre d'hotel"></a>
 <i class="fas fa-star hostingMainCardGradeIcon" data-active="true"></i>
 </div>
 </div>
- <a class="plus" href="#">Afficher plus</a>
 </article>
+<a class="plus" href="#">Afficher plus</a>
 </div>
     </section>
 
