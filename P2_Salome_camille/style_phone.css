@@ -31,7 +31,7 @@
     .activitésTitle
     {
         display: flex;
-        justify-content: center;
+        margin-left: 10px;
     }
     .activitésPart
     {
@@ -167,7 +167,21 @@
     {
         position: unset;
     }
+    .firstColumn
+    {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .secondColumn
+    {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+}
+
 
 @media all and (max-width: 375px)
 {
@@ -182,20 +196,76 @@ header
     margin-left: 10px;
     margin-right: 10px;
 }
+.logo
+{
+    margin: 30px;
+}
     #hebergements:hover, #activités:hover
 {
     color: #0065FC;
-    border-bottom: 1px solid #0065FC;
+    border-bottom: 2px solid #0065FC;
+    border-width: 50%;
     transition-duration: 0.1s; 
     border-top: none;
 }
+#hebergements
+{ 
+    padding: 20px;
+    right: 87px;
+    bottom: 20px;
+}
+#activités
+{
+    padding: 20px;
+    right: 40px;
+    bottom: 20px;
+}
+#inscription
+{
+    top: 15px;
+    right: 20px;
+}
 #hebergements, #activités, #inscription
 {
-    
     text-decoration: none; 
-    
-    
+    position: relative;
 }
-
+.search
+{
+    margin-left: 40px;
+}
+img.part2HostingCard
+{
+    width: 320px;
+}
+.part1
+{
+    border-radius: 0em;
+    border: none;
+    background-color: white;
+    font-size: 100%;
+}
+.part2HostingCard
+{
+    justify-content: end;
+    box-shadow: 0px 1px 1px #F2F2F2;
+}
+.part3HostingCard
+{
+    justify-content: end;
+    box-shadow: 0px 1px 1px #F2F2F2;
+}
+aside
+{
+    border-radius: 0%;
+}
+.piedDePage
+{
+    flex-direction: column;
+}
+.column1 , .column2 , .column3
+{
+    margin-left: 20px;
+}
 
 }
