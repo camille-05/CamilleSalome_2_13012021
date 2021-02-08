@@ -24,7 +24,6 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;  
-    height: 30px;
 }
  #hebergements:hover, #activités:hover
 {
@@ -186,6 +185,14 @@ span.icons
     padding: 5px;
     width: 15px;
     text-align: center;
+}
+.resultatIcones
+{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+
 }
 img.part2HostingCard
 {
@@ -444,6 +451,11 @@ margin-top: 10px;
 .parcLongchamp
 {
     padding: 10px;
+}
+footer
+{
+    font-weight: 600;
+    
 }
 .piedDePage
 {

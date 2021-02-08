@@ -14,16 +14,17 @@
 <!--body-->
 <body> 
     <header class="entete">
+      <div class="phone_menu">
     <img class="logo" src="images/logo/Reservia.svg" alt="Reservia"/>  
   <!--menu-->
   <nav class="navigation">
     <div class="menu">
-      <div class="portable"><a id="hebergements" href="#1">Hébergements</a>
-      <a id="activités" href="#2">Activités</a></div>
+      <a id="hebergements" href="#1">Hébergements</a>
+      <a id="activités" href="#2">Activités</a>
 <a id="inscription" href="s'inscrire">S'inscrire</a>
-</div>    
-                 
+</div>                 
 </nav>
+</div>
 </header>
 <!--main-->
 <main>
@@ -37,7 +38,7 @@
         <span class='icons'><i class="fas fa-map-marker-alt"></i></span>
          <input class="barreDeRecherche" type="search" id="maRecherche" name="q" placeholder="Marseille, France">
       
-      <button class="button"><i class="fas fa-search"></i>Rechercher</button>
+      <button class="button"><i class="fas fa-search"></i><span class="rechercher">Rechercher</span></button>
     </form>
     </div>
     <br/>
@@ -58,7 +59,7 @@
                 </div> 
       </div>
       <div class="resultatIcones">
-        <p class="resultat"><i class="fas fa-info information"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+        <i class="fas fa-info information"></i><p class="resultat"></p> Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
       </section>
 <div class="firstBlock">

@@ -111,8 +111,7 @@
     header
     { 
         display: flex;
-        justify-content: center;
-        align-items: center;
+        
     }
     .logo{
         position: relative;
@@ -120,9 +119,37 @@
         margin: 20px;
     }
     
+    i.fas.fa-search
+    {
+        display: initial;
+        position: relative;
+        left: 8px;
+    }
+    .rechercher
+    {
+        display: none;
+    }
     .button
     {
-        max-width: 50px;
+     border-radius: 12px 12px 12px 12px;  
+     width: 100px; 
+     position: relative;
+     right: 20px;
+     max-width: 50px;
+    }
+    h3.populairesCardTitle
+    {
+        font-size: 19px;
+    }
+    .populairesCard1
+    {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .populairesCardDescription
+    {
+        position: relative;
+        bottom: 25px;
     }
     .firstBlock
     {
@@ -132,9 +159,23 @@
     {
         flex-wrap: wrap;
     }
+    .part2Hosting1
+    {
+        max-width: 330px;
+        box-shadow: 2px 1px 1px #F2F2F2;
+    }
+    .part2Hosting2
+    {
+        max-width: 330px;
+        box-shadow: 2px 1px 1px #F2F2F2;
+    }
     .part3HostingCard
     {
         flex-wrap: wrap;
+    }
+    .populairesCardFigureCaption
+    {
+        margin: 10px;
     }
 
     .activitésPart1
@@ -158,14 +199,27 @@
     .menu
     { 
         display: flex;
-        flex-wrap: wrap-reverse;
         width: auto;
-        height: auto;
-        
     }
-    .navigation
+    #hebergements, #activités, #inscription
     {
-        position: unset;
+        padding: 10px;
+    }
+    nav
+    {
+        top: -40px;
+    } 
+    .part2
+    {
+        margin-top: 30px;
+    }
+    .part3HostingCard
+    {
+        margin-bottom: 25px;
+    }
+    #activity
+    {
+        margin-top: 60px;
     }
     .firstColumn
     {
@@ -193,37 +247,59 @@ html
 }
 header
 {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+main
+{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .logo
 {
-    margin: 30px;
+    margin: 0px;
+    top: 5px;
+    left: 0px;
+}
+nav
+{
+    top: -80px;
+}
+.menu
+{
+    flex-wrap: wrap-reverse;
 }
     #hebergements:hover, #activités:hover
 {
     color: #0065FC;
     border-bottom: 2px solid #0065FC;
-    border-width: 50%;
-    transition-duration: 0.1s; 
+    border-width: 50%; 
     border-top: none;
 }
+
 #hebergements
 { 
     padding: 20px;
-    right: 87px;
-    bottom: 20px;
+    right: 167px;
+    bottom: 77px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #0065FC
 }
 #activités
 {
     padding: 20px;
-    right: 40px;
+    right: -31px;
     bottom: 20px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #F2F2F2;
 }
 #inscription
 {
     top: 15px;
-    right: 20px;
+    right: -30px;
+    padding: 40px;
 }
 #hebergements, #activités, #inscription
 {
@@ -232,9 +308,10 @@ header
 }
 .search
 {
-    margin-left: 40px;
+    margin-left: 20px;
 }
-img.part2HostingCard
+
+    img.part2HostingCard
 {
     width: 320px;
 }
