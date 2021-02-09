@@ -1,5 +1,8 @@
 @media all and (max-width: 1400px){
-
+html
+{
+    display: block;
+}
 .firstBlock
     {
      flex-wrap: wrap;
