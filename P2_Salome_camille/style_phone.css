@@ -1,8 +1,15 @@
-@media all and (max-width: 1400px){
-html
+@media all and (max-width: 3840px)
+
 {
-    display: block;
+    html{
+        margin-right:  auto;
+        margin-left:  auto;
+        max-width: 1400px;
+    }
 }
+
+@media all and (max-width: 1400px){
+
 .firstBlock
     {
      flex-wrap: wrap;
@@ -66,17 +73,7 @@ html
     }
  
 }
-@media all and (max-width: 3840px)
 
-{
-    html{
-        margin-right: 0 auto;
-        margin-left: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 @media all and (max-width: 1024px)
 {
