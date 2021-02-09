@@ -63,6 +63,17 @@
     }
  
 }
+@media all and (max-width: 3840px)
+
+{
+    html{
+        margin-right: 0 auto;
+        margin-left: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 @media all and (max-width: 1024px)
 {
@@ -92,6 +103,14 @@
     .filter
     {
         margin: 2px;
+    }
+    .part2HostingTitle
+    {
+        left: 105px;
+    }
+    .plus
+    {
+        margin-left: 105px;
     }
     
     .populairesCardFigureCaption{
@@ -150,6 +169,14 @@
     {
         position: relative;
         bottom: 25px;
+    }
+    .part2HostingTitle
+    {
+        left: 50px;
+    }
+    .plus
+    {
+        margin-left: 50px;
     }
     .firstBlock
     {
