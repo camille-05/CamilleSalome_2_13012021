@@ -173,6 +173,7 @@
     .part2HostingTitle
     {
         left: 50px;
+        max-width: 260px;
     }
     .plus
     {
