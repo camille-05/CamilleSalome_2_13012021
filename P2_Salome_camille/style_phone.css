@@ -278,6 +278,7 @@ header
 {
     margin-left: 0px;
     margin-right: 0px;
+    max-width: 100%;
 }
 main
 {
@@ -310,7 +311,7 @@ nav
 { 
     padding: 20px;
     right: 167px;
-    bottom: 77px;
+    bottom: 78px;
     width: 50%;
     text-align: center;
     border-bottom: 1px solid #0065FC
@@ -318,7 +319,7 @@ nav
 #activités
 {
     padding: 20px;
-    right: -31px;
+    right: -9px;
     bottom: 20px;
     width: 50%;
     text-align: center;
@@ -327,7 +328,7 @@ nav
 #inscription
 {
     top: 15px;
-    right: -30px;
+    right: 7px;
     padding: 40px;
 }
 #hebergements, #activités, #inscription
@@ -354,6 +355,10 @@ nav
     border: none;
     background-color: white;
     font-size: 100%;
+}
+.part2HostingTitle
+{
+    position: unset;
 }
 .part2HostingCard
 {
