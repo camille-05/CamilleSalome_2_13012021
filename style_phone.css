@@ -1,0 +1,410 @@
+@media all and (max-width: 3840px)
+
+{
+    html{
+        margin-right:  auto;
+        margin-left:  auto;
+        max-width: 1400px;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+
+    html
+    {
+        margin: initial;
+    }
+    .firstBlock
+    {
+     flex-wrap: wrap;
+     flex-direction: column-reverse;   
+    }
+    #populaires.part2 
+    {
+        font-size: 85%;
+        width: auto;
+        height: auto; 
+    }
+    .part2Populaires
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .part1
+    {
+        margin-top: 20px;
+    }
+    .activitésImg1, .activitésImg2, .activitésImg3, .activitésImg4, .activitésImg5, .activitésImg6
+    {
+    object-fit: cover;
+    width: 290px;
+    height: 180px;
+    border-radius: 25px 25px 0% 0%;
+    }
+    .activitésTitle
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+    .activitésPart
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .firstColumn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+    .secondColumn
+{
+    flex-direction: row;
+}
+    .ileDeFrioul
+{
+    padding: 0%;
+}
+    .activités2Part2
+    {
+        align-items: center;
+    }
+    .activitésPart2
+    {
+            align-items: center;
+            justify-content: center;
+    }
+ 
+}
+
+
+@media all and (max-width: 1024px)
+{
+    body{
+    
+        max-width: 1024px;
+         font-weight: bold;
+        }
+     header{
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 1024px;
+    }
+    main
+    {
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    #sousMenu
+{
+      display: flex;
+      flex-wrap: wrap;  
+      max-width: 1024px;
+}
+    .filter
+    {
+        margin: 2px;
+    }
+    .part2HostingTitle
+    {
+        left: 105px;
+        max-width: 260px;
+    }
+    .plus
+    {
+        margin-left: 105px;
+    }
+    
+    .populairesCardFigureCaption{
+        max-width: 1024px;
+    }
+    .part2Populaires
+    {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    
+}
+
+@media all and (max-width: 900px)
+{
+    header
+    { 
+        display: flex;
+        
+    }
+    .logo{
+        position: relative;
+        top: -20px;
+        margin: 20px;
+    }
+    
+    i.fas.fa-search
+    {
+        display: initial;
+        position: relative;
+        left: 8px;
+    }
+    .rechercher
+    {
+        display: none;
+    }
+    .button
+    {
+     border-radius: 12px 12px 12px 12px;  
+     width: 100px; 
+     position: relative;
+     right: 20px;
+     max-width: 50px;
+    }
+    h3.populairesCardTitle
+    {
+        font-size: 19px;
+    }
+    .populairesCard1
+    {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .populairesCardDescription
+    {
+        position: relative;
+        bottom: 25px;
+    }
+    .part2HostingTitle
+    {
+        left: 50px;
+        
+    }
+    .plus
+    {
+        margin-left: 50px;
+    }
+    .firstBlock
+    {
+        justify-content: stretch;
+    }
+    .part2HostingCard
+    {
+        flex-wrap: wrap;
+    }
+    .part2Hosting1
+    {
+        max-width: 330px;
+        box-shadow: 2px 1px 1px #F2F2F2;
+    }
+    .part2Hosting2
+    {
+        max-width: 330px;
+        box-shadow: 2px 1px 1px #F2F2F2;
+    }
+    .part3HostingCard
+    {
+        flex-wrap: wrap;
+    }
+    .populairesCardFigureCaption
+    {
+        margin: 10px;
+    }
+
+    .activitésPart1
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .activitésPart2
+    {
+        flex-wrap: wrap;
+    }
+
+}
+@media all and (max-width: 600px)
+{
+    
+    .logo
+    {
+        left: 35px;
+    }
+    .menu
+    { 
+        display: flex;
+        width: auto;
+    }
+    #hebergements, #activités, #inscription
+    {
+        padding: 10px;
+    }
+    nav
+    {
+        top: -40px;
+    } 
+    .part2
+    {
+        margin-top: 30px;
+    }
+    .part3HostingCard
+    {
+        margin-bottom: 25px;
+    }
+    #activity
+    {
+        margin-top: 60px;
+    }
+    .firstColumn
+    {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .secondColumn
+    {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
+
+
+@media all and (max-width: 375px)
+{
+
+html
+{
+    max-width: 375px; 
+    font-size: 85%;
+}
+header
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+}
+main
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.titre1
+{
+    font-size: 160%;
+}
+.logo
+{
+    margin: 0px;
+    top: 5px;
+    left: 0px;
+}
+nav
+{
+    top: -80px;
+}
+.menu
+{
+    flex-wrap: wrap-reverse;
+}
+    #hebergements:hover, #activités:hover
+{
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    border-width: 50%; 
+    border-top: none;
+}
+
+#hebergements
+{ 
+    padding: 20px;
+    right: 167px;
+    bottom: 78px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #0065FC
+}
+#activités
+{
+    padding: 20px;
+    right: -9px;
+    bottom: 20px;
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #F2F2F2;
+}
+#inscription
+{
+    top: 15px;
+    right: 7px;
+    padding: 40px;
+}
+#hebergements, #activités, #inscription
+{
+    text-decoration: none; 
+    position: relative;
+}
+.search
+{
+    margin-left: 20px;
+}
+.sousMenuIcones
+{
+    margin-right: 5px;
+}
+
+    img.part2HostingCard
+{
+    width: 320px;
+}
+.titlePopularIcon
+{
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.part1
+{
+    border-radius: 0em;
+    border: none;
+    background-color: white;
+    font-size: 100%;
+}
+.part2HostingTitle
+{
+    position: relative;
+    left: 20px;
+}
+.plus
+{
+    margin-left: 30px;
+}
+.part2HostingCard
+{
+    justify-content: end;
+    box-shadow: 0px 1px 1px #F2F2F2;
+}
+.part3HostingCard
+{
+    justify-content: end;
+    box-shadow: 0px 1px 1px #F2F2F2;
+}
+aside
+{
+    border-radius: 0%;
+}
+.activitésTitle
+{
+    margin-left: 25px;
+}
+.piedDePage
+{
+    flex-direction: column;
+}
+.column1 , .column2 , .column3
+{
+    margin-left: 20px;
+}
+
+}
